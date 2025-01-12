@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_7/drawer.dart';
 
-
-
 class Lab3 extends StatelessWidget {
   const Lab3({super.key});
 
@@ -13,7 +11,7 @@ class Lab3 extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Container'),
-          backgroundColor:  Color.fromARGB(255, 13, 230, 193),
+          backgroundColor: const Color.fromARGB(255, 13, 230, 193),
         ),
         drawer: MyDrawer(),
         body: Center(
@@ -23,7 +21,7 @@ class Lab3 extends StatelessWidget {
             children: [
               Container(
                 padding: const EdgeInsets.all(20),
-                 color: Color.fromARGB(255, 13, 230, 193),
+                color: const Color.fromARGB(255, 13, 230, 193),
                 child: const Text(
                   'I am container',
                   style: TextStyle(color: Colors.white),
@@ -34,7 +32,7 @@ class Lab3 extends StatelessWidget {
                 child: Container(
                   margin: const EdgeInsets.symmetric(vertical: 10),
                   padding: const EdgeInsets.all(10),
-                   color: Color.fromARGB(255, 13, 230, 193),
+                  color: const Color.fromARGB(255, 13, 230, 193),
                   child: const Text(
                     'Hai, I am mohammed',
                     style: TextStyle(color: Colors.white, fontSize: 18),
@@ -47,7 +45,7 @@ class Lab3 extends StatelessWidget {
                   margin: const EdgeInsets.symmetric(vertical: 10),
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 13, 230, 193),
+                    color: const Color.fromARGB(255, 13, 230, 193),
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: const Text(
@@ -60,7 +58,7 @@ class Lab3 extends StatelessWidget {
                 margin: const EdgeInsets.only(top: 20),
                 width: 150,
                 height: 150,
-                 color: Color.fromARGB(255, 13, 230, 193),
+                color: const Color.fromARGB(255, 13, 230, 193),
                 child: Center(
                   child: Container(
                     width: 120,

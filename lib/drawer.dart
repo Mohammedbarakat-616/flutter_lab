@@ -1,3 +1,11 @@
+
+import 'package:flutter_application_7/_carousel_slider.dart';
+import 'package:flutter_application_7/_circle_nav1.dart';
+import 'package:flutter_application_7/_image_picker.dart';
+import 'package:flutter_application_7/_provider.dart';
+import 'package:flutter_application_7/_splashscreen.dart';
+import 'package:flutter_application_7/ca1.dart';
+import 'package:flutter_application_7/addstudent.dart';
 import 'package:flutter_application_7/lab2.dart';
 import 'package:flutter_application_7/lab3.dart';
 import 'package:flutter_application_7/main.dart';
@@ -43,8 +51,14 @@ class MyDrawer extends StatelessWidget {
                   buildListTile(context, "lab2", Icon(Icons.label), Lab2()),
                   buildListTile(context, "lab3", Icon(Icons.label), Lab3()),
                   buildListTile(context, "lab4", Icon(Icons.label), Myhome()),
-                  buildListTile(context, "lab5", Icon(Icons.label), Myhome()),
-                  
+                  buildListTile(context, "lab5", Icon(Icons.label), const Addstudent()),                  
+                   buildListTile(context, "CAL1", Icon(Icons.label), SimpleCalculatorPage()),
+                  buildListTile(context, "splash screen", Icon(Icons.label), splashscreen()),
+                  buildListTile(context, "_provider", Icon(Icons.label), MyApp()),
+                  buildListTile(context, "ImagePickerExample", Icon(Icons.label), ImagePickerExample()),
+                   buildListTile(context, "carousel_slider", Icon(Icons.label), CarouselDemo()),
+                   buildListTile(context, "circle_nav1", Icon(Icons.label), MyAppa()),
+
                 ],
               ),
             ),
